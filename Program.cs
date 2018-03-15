@@ -10,7 +10,12 @@ namespace TestC_
             Console.WriteLine("Podaj imię:");
             string imie = "Michal";
             imie = Console.ReadLine();
-            Console.WriteLine("Witaj! "+imie);
+           
+
+            Console.WriteLine("Podaj nazwisko:");
+            string nazwisko = Console.ReadLine();
+
+            Console.WriteLine("Witaj! " + imie + " " + nazwisko); 
         }
     }
 }
